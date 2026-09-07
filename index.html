@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar Ahmed | Flutter Developer</title>
+  <meta name="description" content="Omar Ahmed — Software Engineer & Flutter Developer building production iOS & Android apps. 10+ shipped apps across e-commerce, booking, and AI-powered sports tech." />
+  <meta name="author" content="Omar Ahmed" />
+  <meta name="theme-color" content="#0b1017" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Omar Ahmed — Software Engineer & Flutter Developer" />
+  <meta property="og:description" content="Building and shipping production Flutter apps for iOS & Android." />
+  <meta property="og:type" content="website" />
+
+  <!-- "O" monogram favicon (inline SVG, no file needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230b1017'/%3E%3Ctext x='32' y='46' font-family='Segoe UI,Helvetica,Arial,sans-serif' font-size='42' font-weight='700' fill='%2313B9FD' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts: Latin + Arabic, with system fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+  <a href="#main" class="skip-link" data-i18n="nav.skip">Skip to content</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="brand" aria-label="Omar Ahmed — home">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span class="brand-name">Omar Ahmed</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about"      data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#projects"   data-i18n="nav.projects">Projects</a>
+        <a href="#skills"     data-i18n="nav.skills">Skills</a>
+        <a href="#contact"    data-i18n="nav.contact">Contact</a>
+
+        <div class="nav-actions">
+          <a class="btn btn-ghost btn-sm" href="assets/OmarAhmed-SoftwareEngineer.pdf" download data-i18n="nav.resume">Resume</a>
+          <button class="icon-btn" id="langToggle" data-i18n-attr="aria-label|aria.lang" aria-label="Switch language">
+            <span id="langLabel">ع</span>
+          </button>
+          <button class="icon-btn" id="themeToggle" data-i18n-attr="aria-label|aria.theme" aria-label="Toggle light / dark theme">
+            <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-13a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm0 15a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm18 0a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM5.6 5.6a1 1 0 0 1 1.4 0l.7.7A1 1 0 0 1 6.3 7.7l-.7-.7a1 1 0 0 1 0-1.4Zm11 11a1 1 0 0 1 1.4 0l.7.7a1 1 0 0 1-1.4 1.4l-.7-.7a1 1 0 0 1 0-1.4Zm1.4-11a1 1 0 0 1 0 1.4l-.7.7a1 1 0 1 1-1.4-1.4l.7-.7a1 1 0 0 1 1.4 0Zm-11 11a1 1 0 0 1 0 1.4l-.7.7a1 1 0 0 1-1.4-1.4l.7-.7a1 1 0 0 1 1.4 0Z"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero container" aria-labelledby="hero-name">
+      <div class="hero-top">
+      <div class="hero-inner">
+        <a class="open-card" href="#contact" aria-labelledby="open-title">
+          <span class="open-card-badge" id="open-title"><span class="pulse-dot" aria-hidden="true"></span><span data-i18n="hero.open_title">Open to work</span></span>
+          <span class="open-card-cta"><span data-i18n="hero.open_cta">Let’s talk</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M13.2 5.2a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4l4.3-4.3H4a1 1 0 1 1 0-2h13.5l-4.3-4.3a1 1 0 0 1 0-1.4Z"/></svg>
+          </span>
+          <p class="open-card-desc" data-i18n="hero.open_desc">I’m looking to join a product-driven company with strong engineering practices, a culture of growth, and a team that cares about building things the right way. I want to grow as an engineer, work on meaningful products, and use modern AI-assisted workflows to build and ship high-quality software faster.</p>
+        </a>
+        <p class="hero-greeting" data-i18n="hero.greeting">Hi, I’m</p>
+        <h1 id="hero-name" data-i18n="hero.name">Omar Ahmed</h1>
+        <p class="hero-role" data-i18n="hero.role">Software Engineer · Flutter &amp; Mobile Engineer</p>
+        <p class="hero-summary" data-i18n="hero.summary">I design, build, and ship production Flutter apps for iOS and Android — end to end, from first idea to a polished release on the store.</p>
+
+        <p class="hero-location">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+          <span data-i18n="hero.location">Cairo, Egypt</span>
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact" data-i18n="hero.cta_contact">Get in touch</a>
+          <a class="btn btn-ghost" href="assets/OmarAhmed-SoftwareEngineer.pdf" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.6l2.3-2.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L11 13.6V4a1 1 0 0 1 1-1ZM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"/></svg>
+            <span data-i18n="hero.cta_resume">Download résumé</span>
+          </a>
+        </div>
+
+        <ul class="hero-social" aria-label="Social links">
+          <li><a href="https://www.linkedin.com/in/omar-ahmedx7" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.5 8.65 22 10.6 22 14v7h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9V9Z"/></svg>
+          </a></li>
+          <li><a href="https://github.com/omarahmedx7" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          </a></li>
+          <li><a href="mailto:Omarahmedv2@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.4l8 5 8-5V6H4Zm16 2.7-7.47 4.67a1 1 0 0 1-1.06 0L4 8.7V18h16V8.7Z"/></svg>
+          </a></li>
+          <li><a href="tel:+201064239345" aria-label="Phone">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.3a1 1 0 0 1 1 1c0 1.25.2 2.46.6 3.6a1 1 0 0 1-.25 1L6.6 10.8Z"/></svg>
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="hero-media reveal">
+        <div class="hero-photo">
+          <img src="assets/omar.jpg" alt="Portrait of Omar Ahmed" width="960" height="1280" loading="eager" />
+        </div>
+        <span class="hero-photo-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4 0-8 2-8 5v1h16v-1c0-3-4-5-8-5Z"/></svg>
+          <span data-i18n="hero.name">Omar Ahmed</span>
+        </span>
+      </div>
+      </div>
+
+      <!-- Stats -->
+      <ul class="stats" aria-label="Highlights">
+        <li class="stat reveal"><span class="stat-num" data-i18n="stats.apps_value">10+</span><span class="stat-label" data-i18n="stats.apps_label">Production apps shipped</span></li>
+        <li class="stat reveal"><span class="stat-num" data-i18n="stats.years_value">~3</span><span class="stat-label" data-i18n="stats.years_label">Years of experience</span></li>
+        <li class="stat reveal"><span class="stat-num" data-i18n="stats.issues_value">30+</span><span class="stat-label" data-i18n="stats.issues_label">Critical issues resolved</span></li>
+        <li class="stat reveal"><span class="stat-num" data-i18n="stats.mentored_value">3</span><span class="stat-label" data-i18n="stats.mentored_label">Junior devs mentored</span></li>
+      </ul>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <p class="kicker" data-i18n="about.kicker">Who I am</p>
+      <h2 class="section-title" id="about-title" data-i18n="about.title">About</h2>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p data-i18n="about.p1">I build and ship cross-platform mobile apps end to end — across e-commerce, booking, education, pet services, farm management, social media, and AI-powered sports tech. I take features from product requirements through API integration, testing, release preparation, and production support, collaborating closely with product, design, backend, and QA teams.</p>
+          <p data-i18n="about.p2">I’m strong in Flutter architecture, REST API integration, Firebase, payments, testing, and CI/CD, with foundational Node.js/Express and database knowledge, and I lean on AI-assisted development workflows to move faster and write better code.</p>
+        </div>
+        <div class="about-highlights reveal">
+          <h3 data-i18n="about.highlights_title">Core strengths</h3>
+          <ul class="check-list">
+            <li data-i18n="about.h1">Full Arabic/English localization with RTL layout support across production apps.</li>
+            <li data-i18n="about.h2">OWASP Mobile Top 10 practices — secure storage, safe API-key handling, release obfuscation.</li>
+            <li data-i18n="about.h3">Offline-first data access and sync for low-connectivity environments.</li>
+            <li data-i18n="about.h4">Secure payments end to end — Stripe, PayTabs, Apple Pay, and in-app purchases.</li>
+            <li data-i18n="about.h5">Clean Architecture (Bloc/Cubit) with CI/CD delivery to the App Store &amp; Google Play.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section container" id="experience" aria-labelledby="exp-title">
+      <p class="kicker" data-i18n="exp.kicker">Where I’ve worked</p>
+      <h2 class="section-title" id="exp-title" data-i18n="exp.title">Experience</h2>
+
+      <ol class="timeline">
+        <li class="tl-item reveal">
+          <div class="tl-marker" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3 class="tl-role"><span data-i18n="exp.ga.role">Flutter Developer</span> · <a class="tl-company" href="https://www.linkedin.com/company/gamearound/" target="_blank" rel="noopener" data-i18n="exp.ga.company">Gamearound</a></h3>
+              <span class="tl-dates" data-i18n="exp.ga.dates">Jan 2024 – Present</span>
+            </div>
+            <p class="tl-type" data-i18n="exp.ga.type">Remote · Full-time</p>
+            <ul class="dash-list">
+              <li data-i18n="exp.ga.b1">Built and maintained 7+ production Flutter apps across booking, education, pet services, farm management, and sports technology.</li>
+              <li data-i18n="exp.ga.b2">Delivered features from product requirements through API integration, testing, release prep, and production support with product, design, backend, and QA teams.</li>
+              <li data-i18n="exp.ga.b3">Built an AI-powered golf ball-tracking feature using Python, OpenCV, YOLOv8, and TensorFlow Lite for ball detection, trajectory classification, and launch-angle calculation.</li>
+              <li data-i18n="exp.ga.b4">Used AI-assisted development workflows to speed up implementation, improve code quality, support debugging, and produce better technical documentation.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item reveal">
+          <div class="tl-marker" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3 class="tl-role"><span data-i18n="exp.gp.role">Flutter Developer</span> · <a class="tl-company" href="https://www.linkedin.com/company/goldenpackages/" target="_blank" rel="noopener" data-i18n="exp.gp.company">Golden Packages</a></h3>
+              <span class="tl-dates" data-i18n="exp.gp.dates">Apr 2025 – Oct 2025</span>
+            </div>
+            <p class="tl-type" data-i18n="exp.gp.type">Remote · Part-time</p>
+            <ul class="dash-list">
+              <li data-i18n="exp.gp.b1">Developed and maintained RCA Shop, a production e-commerce Flutter app published on Google Play and the App Store.</li>
+              <li data-i18n="exp.gp.b2">Delivered business features — Deal of the Day, Featured Products, Seasonal Categories, and Product Collections — to improve product discovery and engagement.</li>
+              <li data-i18n="exp.gp.b3">Integrated PayTabs for secure, smooth online payments.</li>
+              <li data-i18n="exp.gp.b4">Resolved 15+ performance issues and improved the checkout flow, UI consistency, and release quality.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section container" id="projects" aria-labelledby="proj-title">
+      <p class="kicker" data-i18n="projects.kicker">Selected work</p>
+      <h2 class="section-title" id="proj-title" data-i18n="projects.title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- AnonQ -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">AnonQ</h3>
+            <span class="badge badge-testing" data-i18n="projects.status_testing">In testing</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.anonq.desc">Led the full mobile build of an anonymous Q&amp;A social platform — anonymous questions, a public answer feed, profiles, and user blocking — with a server-side ML moderation service, RevenueCat premium unlocks, deep links, and FCM push. Feature-based Clean Architecture with Cubit and full AR/EN + RTL.</p>
+          <ul class="tags"><li>Flutter</li><li>Cubit</li><li>Clean Architecture</li><li>Firebase</li><li>RevenueCat</li><li>Node.js</li></ul>
+        </article>
+
+        <!-- JAiME -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">JAiME AI Golf Coach</h3>
+            <span class="badge badge-testing" data-i18n="projects.status_testing">In testing</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.jaime.desc">AI-powered golf swing analysis: server-side ball detection and tracking with YOLO and OpenCV (Kalman filter + ROI tracking), trajectory classification, golfer skeleton tracking, real-time live practice feedback, and ElevenLabs text-to-speech coaching.</p>
+          <ul class="tags"><li>Flutter</li><li>Python</li><li>OpenCV</li><li>YOLO</li><li>ML Kit</li><li>ElevenLabs</li></ul>
+        </article>
+
+        <!-- MobileHerd -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">MobileHerd</h3>
+            <span class="badge badge-live" data-i18n="projects.status_live">Live</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.herd.desc">Built from scratch — a production app for farmers to manage animal records, events, and services. Offline-friendly data access and sync for low-connectivity farms, with optimized large-dataset handling for faster loading.</p>
+          <ul class="tags"><li>Flutter</li><li>REST APIs</li><li>Offline Sync</li><li>Data Structures</li></ul>
+          <div class="project-links">
+            <a class="store-btn" href="https://apps.apple.com/gb/app/mobileherd-ii/id6751405639" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.6.8-3.3.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.8.8-3.6 2.2-1.5 2.7-.4 6.6 1.1 8.8.7 1 1.6 2.2 2.7 2.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.6.7 2.8.7 1.2 0 1.9-1.1 2.6-2.1.8-1.2 1.2-2.3 1.2-2.4-.1 0-2.3-.9-2.3-3.6ZM14.3 6.2c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.6.6-1 1.6-.9 2.6 1 .1 2-.5 2.5-1.2Z"/></svg>
+              <span data-i18n="btn.appstore">App Store</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- RCA Shop -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">RCA Shop</h3>
+            <span class="badge badge-live" data-i18n="projects.status_live">Live</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.rca.desc">Production e-commerce app on Google Play and the App Store. Delivered Deal of the Day, Featured Products, Seasonal Categories, and Collections; integrated secure PayTabs &amp; Apple Pay; resolved 15+ issues and improved stability.</p>
+          <ul class="tags"><li>Flutter</li><li>PayTabs</li><li>Apple Pay</li><li>REST APIs</li><li>Multilingual</li></ul>
+          <div class="project-links">
+            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.rcastore.ae" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M4 3.2 13.6 12 4 20.8c-.3-.2-.5-.6-.5-1V4.2c0-.4.2-.8.5-1Zm10.9 7.5 2.6-1.5-9.4-5.5 6.8 7ZM7.9 20.3l9.6-5.6-2.6-1.5-7 7.1Zm10.9-6.3 2.5-1.5c.5-.3.7-.9.4-1.4-.1-.2-.2-.3-.4-.4l-2.5-1.5-2.8 2.4 2.8 2.4Z"/></svg>
+              <span data-i18n="btn.googleplay">Google Play</span>
+            </a>
+            <a class="store-btn" href="https://apps.apple.com/eg/app/rca-store/id6749771655" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.6.8-3.3.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.8.8-3.6 2.2-1.5 2.7-.4 6.6 1.1 8.8.7 1 1.6 2.2 2.7 2.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.6.7 2.8.7 1.2 0 1.9-1.1 2.6-2.1.8-1.2 1.2-2.3 1.2-2.4-.1 0-2.3-.9-2.3-3.6ZM14.3 6.2c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.6.6-1 1.6-.9 2.6 1 .1 2-.5 2.5-1.2Z"/></svg>
+              <span data-i18n="btn.appstore">App Store</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- HD Cutz -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">HD Cutz Salon</h3>
+            <span class="badge badge-live" data-i18n="projects.status_live">Live</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.hdcutz.desc">A multi-app salon platform spanning customer, staff, and admin experiences. Integrated Stripe payments and Firebase Cloud Messaging for bookings, payments, and real-time notifications, on a Clean Architecture base.</p>
+          <ul class="tags"><li>Flutter</li><li>Stripe</li><li>FCM</li><li>Clean Architecture</li><li>Multilingual</li></ul>
+          <div class="project-links">
+            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamearound.hdcutzsaloon" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M4 3.2 13.6 12 4 20.8c-.3-.2-.5-.6-.5-1V4.2c0-.4.2-.8.5-1Zm10.9 7.5 2.6-1.5-9.4-5.5 6.8 7ZM7.9 20.3l9.6-5.6-2.6-1.5-7 7.1Zm10.9-6.3 2.5-1.5c.5-.3.7-.9.4-1.4-.1-.2-.2-.3-.4-.4l-2.5-1.5-2.8 2.4 2.8 2.4Z"/></svg>
+              <span data-i18n="btn.googleplay">Google Play</span>
+            </a>
+            <a class="store-btn" href="https://apps.apple.com/gb/app/hd-cutz-barber-shop-booking/id1633693095" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.6.8-3.3.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.8.8-3.6 2.2-1.5 2.7-.4 6.6 1.1 8.8.7 1 1.6 2.2 2.7 2.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.6.7 2.8.7 1.2 0 1.9-1.1 2.6-2.1.8-1.2 1.2-2.3 1.2-2.4-.1 0-2.3-.9-2.3-3.6ZM14.3 6.2c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.6.6-1 1.6-.9 2.6 1 .1 2-.5 2.5-1.2Z"/></svg>
+              <span data-i18n="btn.appstore">App Store</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Poochiepoo -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h3 class="project-name">Poochiepoo</h3>
+            <span class="badge badge-live" data-i18n="projects.status_live">Live</span>
+          </div>
+          <p class="project-desc" data-i18n="proj.pooch.desc">Pet-services app with features for services, payments, and user management. Integrated Stripe, redesigned key UI areas, and resolved 20+ critical performance issues for a smoother, more consistent experience.</p>
+          <ul class="tags"><li>Flutter</li><li>GetX</li><li>Firebase</li><li>Firestore</li><li>Stripe</li></ul>
+          <div class="project-links">
+            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.ga.poochiepoo" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M4 3.2 13.6 12 4 20.8c-.3-.2-.5-.6-.5-1V4.2c0-.4.2-.8.5-1Zm10.9 7.5 2.6-1.5-9.4-5.5 6.8 7ZM7.9 20.3l9.6-5.6-2.6-1.5-7 7.1Zm10.9-6.3 2.5-1.5c.5-.3.7-.9.4-1.4-.1-.2-.2-.3-.4-.4l-2.5-1.5-2.8 2.4 2.8 2.4Z"/></svg>
+              <span data-i18n="btn.googleplay">Google Play</span>
+            </a>
+            <a class="store-btn" href="https://apps.apple.com/gb/app/poochiepoo/id6448852956" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.6.8-3.3.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.8.8-3.6 2.2-1.5 2.7-.4 6.6 1.1 8.8.7 1 1.6 2.2 2.7 2.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.6.7 2.8.7 1.2 0 1.9-1.1 2.6-2.1.8-1.2 1.2-2.3 1.2-2.4-.1 0-2.3-.9-2.3-3.6ZM14.3 6.2c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.6.6-1 1.6-.9 2.6 1 .1 2-.5 2.5-1.2Z"/></svg>
+              <span data-i18n="btn.appstore">App Store</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <p class="kicker" data-i18n="skills.kicker">What I work with</p>
+      <h2 class="section-title" id="skills-title" data-i18n="skills.title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.g1">Mobile (Flutter) &amp; Architecture</h3>
+          <ul class="tags"><li>Flutter</li><li>Dart</li><li>Flutter Web</li><li>Clean Architecture</li><li>MVVM</li><li>MVC</li><li>Bloc</li><li>Cubit</li><li>GetX</li><li>OOP</li><li>SOLID</li><li>Design Patterns</li><li>DSA</li><li>Localization</li><li>OWASP Mobile Top 10</li><li>Stripe</li><li>PayTabs</li><li>In-App Purchases</li><li>REST API</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.g2">Backend (Basic)</h3>
+          <ul class="tags"><li>Node.js</li><li>Express.js</li><li>CRUD</li><li>Middleware</li><li>JWT</li><li>MongoDB</li><li>MySQL</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.g3">Data, APIs &amp; Firebase</h3>
+          <ul class="tags"><li>Dio</li><li>Retrofit</li><li>Hive</li><li>SQLite / sqflite</li><li>Firebase Auth</li><li>Firestore</li><li>FCM</li><li>Crashlytics</li><li>Analytics</li><li>Google Maps</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.g4">Tools, Testing &amp; Delivery</h3>
+          <ul class="tags"><li>Dart DevTools</li><li>Unit Testing</li><li>Widget Testing</li><li>CI/CD</li><li>Fastlane</li><li>TestFlight</li><li>App Store Connect</li><li>Play Console</li><li>Flavors</li><li>Git</li><li>GitHub</li><li>Azure DevOps</li><li>Xcode</li><li>Android Studio</li><li>Cursor</li><li>Codex</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.g5">AI &amp; Computer Vision</h3>
+          <ul class="tags"><li>AI-Assisted Workflows</li><li>OpenCV</li><li>YOLOv8</li><li>TensorFlow Lite</li><li>Google ML Kit</li><li>ElevenLabs</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section container" id="contact" aria-labelledby="contact-title">
+      <p class="kicker" data-i18n="contact.kicker">Let’s talk</p>
+      <h2 class="section-title" id="contact-title" data-i18n="contact.title">Contact</h2>
+
+      <div class="contact-card reveal">
+        <h3 class="contact-heading" data-i18n="contact.heading">Have a project or role in mind?</h3>
+        <p class="contact-text" data-i18n="contact.text">I’m open to Flutter / mobile engineering opportunities. The fastest way to reach me is email — I’ll get back to you quickly.</p>
+        <div class="contact-cta">
+          <a class="btn btn-primary" href="mailto:Omarahmedv2@gmail.com" data-i18n="contact.email_btn">Email me</a>
+          <a class="btn btn-ghost" href="assets/OmarAhmed-SoftwareEngineer.pdf" download data-i18n="contact.resume_btn">Download résumé</a>
+        </div>
+        <ul class="contact-links" aria-label="Contact links">
+          <li><a href="mailto:Omarahmedv2@gmail.com">Omarahmedv2@gmail.com</a></li>
+          <li><a href="tel:+201064239345" dir="ltr">+20 106 423 9345</a></li>
+          <li><a href="https://www.linkedin.com/in/omar-ahmedx7" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/omarahmedx7" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <div>
+          <p class="footer-name">Omar Ahmed</p>
+          <p class="footer-tag" data-i18n="footer.tagline">Software Engineer · Flutter Developer</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© <span id="year">2026</span> Omar Ahmed. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" id="toTop" data-i18n-attr="aria-label|aria.top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 8.4 5.7 14.7a1 1 0 0 1-1.4-1.4l7-7a1 1 0 0 1 1.4 0l7 7a1 1 0 0 1-1.4 1.4L12 8.4Z"/></svg>
+  </a>
+
+  <script src="i18n.js?v=5"></script>
+  <script src="script.js?v=3"></script>
+</body>
+</html>
