@@ -95,6 +95,8 @@ window.I18N = {
 
     "btn.appstore": "App Store",
     "btn.googleplay": "Google Play",
+    "btn.demo": "Watch demo",
+    "btn.live_test": "Live test session",
 
     // Skills
     "skills.title": "Skills",
@@ -220,6 +222,8 @@ window.I18N = {
 
     "btn.appstore": "App Store",
     "btn.googleplay": "Google Play",
+    "btn.demo": "شاهد العرض",
+    "btn.live_test": "جلسة اختبار مباشرة",
 
     // Skills
     "skills.title": "المهارات",
