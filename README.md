@@ -26,7 +26,7 @@ python3 -m http.server 8080
 | `styles.css` | Themes, layout, responsive + RTL rules |
 | `i18n.js` | English + Arabic translation strings |
 | `script.js` | Toggles, nav, reveal, scroll-spy |
-| `assets/OmarAhmed-SoftwareEngineer.pdf` | Downloadable résumé |
+| `assets/OmarAhmed-MobileEngineer.pdf` | Downloadable résumé |
 
 ## Customize
 - **Accent color / fonts:** edit the CSS variables at the top of `styles.css` (`--accent`, `--accent-2`, `--font-*`). Currently set to the **Flutter brand blue** (`#0175C2` / `#13B9FD`).
